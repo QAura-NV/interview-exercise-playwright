@@ -1,0 +1,21 @@
+{
+  "name": "interview-exercise-playwright",
+  "version": "1.0.0",
+  "description": "Take-home assignment voor SDET kandidaten — automatisering van 4 scenario’s op bol.com met Playwright. Kandidaten forken deze repo, zetten Playwright vanaf nul op, en leveren hun oplossing in met code, CI/CD en documentatie.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QAura-NV/interview-exercise-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/QAura-NV/interview-exercise-playwright/issues"
+  },
+  "homepage": "https://github.com/QAura-NV/interview-exercise-playwright#readme"
+}
