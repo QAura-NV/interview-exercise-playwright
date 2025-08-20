@@ -49,14 +49,17 @@ Je zet vanuit nul een **Node.js + Playwright project** op. In dit project automa
 - Verzamel de eerste vijf titels van pagina 2 en controleer dat er **weinig overlap** is met pagina 1.  
 - Maak screenshots van beide pagina’s.  
 
----
+Naast het automatiseren van de 4 gevraagde scenario’s, verwachten we dat je aandacht besteedt aan **hoe** je je oplossing opzet:
 
-## Best practices die we willen zien
-- Gebruik van **Page Object Model** en **helpers**.  
-- **Robuuste selectors** i.p.v. fragiele CSS/XPath.  
-- Rijke assertions met `expect`.  
-- Screenshots en HTML-rapportage.  
-- Netjes gestructureerde repo met duidelijke naamgeving.  
+### Structuur
+- Gebruik een duidelijke en consistente **projectstructuur**.
+- Splits je code op in logische delen (bijv. pages, helpers, flows).
+- Houd tests klein en leesbaar; plaats logica in Page Objects of helpers.
+
+### Codekwaliteit
+- Pas het **Page Object Model (POM)** toe.
+- Vermijd duplicatie door **herbruikbare functies** te maken.
+- Gebruik **robuuste selectors** (bv. rol-gebaseerd of data-test-id), geen fragiele CSS/XPath.
 
 ---
 
@@ -64,8 +67,8 @@ Je zet vanuit nul een **Node.js + Playwright project** op. In dit project automa
 
 De repo bevat:
 - De code (**tests, pages, helpers**)  
-- `README.md` met installatie- en run-instructies  
-- `strategy.md` waarin je kort uitlegt hoe je de tests hebt opgezet, welke risico’s je zag, en hoe je flaky tests vermeden hebt  
+- `README.md` met installatie- en run-instructies [docs/README.md](./docs/README.md)  
+- `strategy.md` waarin je kort uitlegt hoe je de tests hebt opgezet, welke risico’s je zag, en hoe je flaky tests vermeden hebt  [docs/strategy.md](./docs/strategy.md)  
 
 Daarnaast configureer je een **CI/CD pipeline** (bijv. GitHub Actions) die:  
 - Dependencies installeert  
@@ -73,3 +76,36 @@ Daarnaast configureer je een **CI/CD pipeline** (bijv. GitHub Actions) die:
 - De tests uitvoert  
 - Het **HTML-rapport en screenshots** als artifact publiceert  
 - Gebruikt maakt van environment variabelen
+
+
+## Checklist
+
+Duid hieronder aan wat je hebt afgerond:
+
+### Structuur & Setup
+- [ ] Project opgezet met `npm init` en Playwright geïnstalleerd
+- [ ] Page Object Model toegepast
+- [ ] Helpers / utilities toegevoegd waar nodig
+- [ ] Duidelijke projectstructuur gebruikt
+
+### Scenario’s
+- [ ] Homepage & zoekfunctie geautomatiseerd
+- [ ] Filteren & sorteren geautomatiseerd
+- [ ] Productdetailpagina (PDP) geautomatiseerd
+- [ ] Paginering geautomatiseerd
+
+### Best Practices
+- [ ] Robuuste selectors gebruikt
+- [ ] `expect` assertions toegepast
+- [ ] Screenshots toegevoegd
+- [ ] HTML-rapportage aanwezig
+- [ ] Stabiele tests zonder `sleep`
+
+### Documentatie
+- [ ] README.md met installatie- en run-instructies
+- [ ] strategy.md met uitleg aanpak, risico’s & flaky test preventie
+
+### CI/CD
+- [ ] Pipeline ingesteld (GitHub Actions / GitLab CI / Bitbucket Pipelines)
+- [ ] Tests draaien automatisch in CI
+- [ ] HTML-rapport en screenshots worden als artifact gepubliceerd
