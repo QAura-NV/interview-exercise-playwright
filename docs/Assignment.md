@@ -67,8 +67,8 @@ Naast het automatiseren van de 4 gevraagde scenario’s, verwachten we dat je aa
 
 De repo bevat:
 - De code (**tests, pages, helpers**)  
-- `README.md` met installatie- en run-instructies [docs/README.md](./docs/README.md)  
-- `strategy.md` waarin je kort uitlegt hoe je de tests hebt opgezet, welke risico’s je zag, en hoe je flaky tests vermeden hebt  [docs/strategy.md](./docs/strategy.md)  
+- `README.md` met installatie- en run-instructies [docs/README.md](./README.md)  
+- `strategy.md` waarin je kort uitlegt hoe je de tests hebt opgezet, welke risico’s je zag, en hoe je flaky tests vermeden hebt  [docs/strategy.md](./strategy.md)  
 
 Daarnaast configureer je een **CI/CD pipeline** (bijv. GitHub Actions) die:  
 - Dependencies installeert  
