@@ -5,6 +5,6 @@ Take-home assignment voor SDET kandidaten — automatisering van 4 scenario’s 
 Dit is een take-home opdracht voor QAura SDET kandidaten.  
 De opdracht is om een klein Playwright-project op te zetten vanaf nul, gericht op de live website van bol.com (read-only).  
 
-De opdracht staat beschreven in /docs/Assignment.md
+De opdracht staat beschreven in [docs/Assignment.md](./docs/Assignment.md)
 
 Succes!
