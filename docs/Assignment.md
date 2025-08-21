@@ -60,6 +60,8 @@ Naast het automatiseren van de 4 gevraagde scenario’s, verwachten we dat je aa
 - Pas het **Page Object Model (POM)** toe.
 - Vermijd duplicatie door **herbruikbare functies** te maken.
 - Gebruik **robuuste selectors** (bv. rol-gebaseerd of data-test-id), geen fragiele CSS/XPath.
+- Naming conventions (tests, pages, helpers). 
+- Andere optimalisaties noteer ze in de [docs/README.md](./README.md)  
 
 ---
 
@@ -77,6 +79,7 @@ Daarnaast configureer je een **CI/CD pipeline** (bijv. GitHub Actions) die:
 - Het **HTML-rapport en screenshots** als artifact publiceert  
 - Gebruikt maakt van environment variabelen
 
+---
 
 ## Checklist
 
