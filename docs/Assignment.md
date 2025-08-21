@@ -3,9 +3,9 @@
 Voor deze opdracht vragen we je om zelf een klein testautomatiseringsproject op te zetten tegen de live website van [bol.com](https://www.bol.com).
 
 Het doel is om te laten zien:
-- hoe jij een testproject structureert,  
-- hoe je met Playwright (Typescript) werkt,  
-- en hoe je best practices toepast in je code en je CI/CD pipeline.  
+- hoe jij een testproject structureert
+- hoe jij met Playwright (TypeScript) werkt
+- hoe jij best practices toepast in je code en je CI/CD pipeline.  
 
 ---
 
@@ -53,15 +53,15 @@ Naast het automatiseren van de 4 gevraagde scenario’s, verwachten we dat je aa
 
 ### Structuur
 - Gebruik een duidelijke en consistente **projectstructuur**.
-- Splits je code op in logische delen (bijv. pages, helpers, flows).
+- Splits je code op in logische delen (bv. pages, helpers, flows).
 - Houd tests klein en leesbaar; plaats logica in Page Objects of helpers.
 
 ### Codekwaliteit
 - Pas het **Page Object Model (POM)** toe.
 - Vermijd duplicatie door **herbruikbare functies** te maken.
-- Gebruik **robuuste selectors** (bv. rol-gebaseerd of data-test-id), geen fragiele CSS/XPath.
+- Gebruik **robuuste selectors** (bv. rol-gebaseerd).
 - Naming conventions (tests, pages, helpers). 
-- Andere optimalisaties noteer ze in de [docs/README.md](./README.md)  
+- Andere optimalisaties? Noteer ze in de [docs/README.md](./README.md)  
 
 ---
 
@@ -88,7 +88,7 @@ Note: het is voldoende om een .yml te maken die interactie kan maken met een pip
 Duid hieronder aan wat je hebt afgerond:
 
 ### Structuur & Setup
-- [ ] Project opgezet met `npm init` en Playwright geïnstalleerd
+- [ ] Project opgezet en Playwright geïnstalleerd
 - [ ] Page Object Model toegepast
 - [ ] Helpers / utilities toegevoegd waar nodig
 - [ ] Duidelijke projectstructuur gebruikt
@@ -104,7 +104,7 @@ Duid hieronder aan wat je hebt afgerond:
 - [ ] `expect` assertions toegepast
 - [ ] Screenshots toegevoegd
 - [ ] HTML-rapportage aanwezig
-- [ ] Stabiele tests zonder `sleep`
+- [ ] Stabiele tests (bv. geen `page.waitForTimeout(1_000)`)
 
 ### Documentatie
 - [ ] README.md met installatie- en run-instructies
