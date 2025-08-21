@@ -79,6 +79,8 @@ Daarnaast configureer je een **CI/CD pipeline** (bijv. GitHub Actions) die:
 - Het **HTML-rapport en screenshots** als artifact publiceert  
 - Gebruikt maakt van environment variabelen
 
+Note: het is voldoende om een .yml te maken die interactie kan maken met een pipeline naar keuze.
+
 ---
 
 ## Checklist
